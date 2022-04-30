@@ -39,7 +39,6 @@ export const Greet = () => (
 export const Greet = () => <h1>Hello Dhanaraj !</h1>
 */
 
-export const Greet = () => {
-    return <h1>Hello Dhanaraj {100 + 25}</h1>;
+export const Greet = (props) => {
+    return <h1>Hello {props.name}</h1>;
 }
-
