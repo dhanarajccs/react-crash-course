@@ -32,6 +32,27 @@
 // export default App; 
 
 
+/*
+import './App.css';
+import { Greet } from './components/Greet';         //  Props
+
+function App() {
+  return (
+    <div className="App">
+      <Greet name="Dhanaraj" heroName="Super man" />
+      <Greet name="Prasanth" heroName="Hero man">
+        <button>Action</button>
+      </Greet> 
+      <Greet name="Sekar" heroName="Spider man">
+        <p>This is children props</p>
+      </Greet>
+    </div>
+  );
+}
+
+export default App; 
+*/
+
 import './App.css';
 import { Greet } from './components/Greet';         //  Props
 

@@ -61,6 +61,7 @@ export const Greet = (props) => {
 }
 */
 
+/*
 export const Greet = (props) => {
     return (
         <div>
@@ -69,5 +70,15 @@ export const Greet = (props) => {
         </div>
     )
 }
+*/
 
-
+// props are immutable – The value can’t be changed.
+export const Greet = (props) => {
+    props.name = "Sharva";
+    return (
+        <div>
+            <h1> Hello {props.name} @ {props.heroName}</h1>
+            {props.children}
+        </div>
+    )
+}
