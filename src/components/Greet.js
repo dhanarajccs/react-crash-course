@@ -45,9 +45,29 @@ export const Greet = (props) => {
 }
 */
 
-
+/*
 export const Greet = (props) => {
     return <h1>Hello {props.name} @ {props.heroName}</h1>;
+}
+*/
+
+// To render the unknown content using children props
+/*
+export const Greet = (props) => {
+    return (
+        <h1> Hello {props.name} @ {props.heroName}</h1>
+        {props.children}
+    )
+}
+*/
+
+export const Greet = (props) => {
+    return (
+        <div>
+            <h1> Hello {props.name} @ {props.heroName}</h1>
+            {props.children}
+        </div>
+    )
 }
 
 
