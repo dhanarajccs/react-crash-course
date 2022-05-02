@@ -1,3 +1,4 @@
+/*
 export const ClickHandler = () => {
 
     const clickHandler = () => {
@@ -10,3 +11,18 @@ export const ClickHandler = () => {
         </div>
     )
 }
+*/
+
+export const ClickHandler = () => {
+
+    const clickHandler = (event) => {
+        console.log("Button Clicked", event);
+    }
+
+    return (
+        <div>
+            <button onClick={clickHandler}>Click Me</button>
+        </div>
+    )
+}
+
