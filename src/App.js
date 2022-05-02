@@ -1,10 +1,11 @@
 import './App.css';
-import { ClickHandler } from './components/ClickHandler';   // Event Handling
+import { ParentComponent } from './components/ParentComponent';  // function / method as props
+
 
 function App() {
   return (
     <div className="App">
-      <ClickHandler />
+      <ParentComponent />
     </div>
   );
 }
