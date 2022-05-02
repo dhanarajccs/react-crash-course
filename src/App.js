@@ -1,13 +1,12 @@
 import './App.css';
-import { Message } from './components/Message';   // state
+import { ClickHandler } from './components/ClickHandler';   // Event Handling
 
 function App() {
   return (
     <div className="App">
-      <Message />
+      <ClickHandler />
     </div>
   );
 }
 
 export default App; 
-
