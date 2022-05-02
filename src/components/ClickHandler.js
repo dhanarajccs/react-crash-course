@@ -29,7 +29,7 @@ export const ClickHandler = () => {
 }
 */
 
-// pass the event as the additional arguments
+// pass the additional arguments to the EventHandler
 export const ClickHandler = () => {
 
     const clickHandler = (event, count = 1) => {
@@ -43,4 +43,3 @@ export const ClickHandler = () => {
         </div>
     )
 }
-
