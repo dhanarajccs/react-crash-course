@@ -13,15 +13,33 @@ export const ClickHandler = () => {
 }
 */
 
+// EventHandler automatically receives the event as its argument.
+/*
 export const ClickHandler = () => {
 
     const clickHandler = (event) => {
-        console.log("Button Clicked", event);
+        console.log("Button Clicked", event)
     }
 
     return (
         <div>
             <button onClick={clickHandler}>Click Me</button>
+        </div>
+    )
+}
+*/
+
+// pass the event as the additional arguments
+export const ClickHandler = () => {
+
+    const clickHandler = (event, count = 1) => {
+        console.log("Button Clicked", count, event)
+    }
+
+    return (
+        <div>
+            <button onClick={clickHandler}>Click </button>
+            <button onClick={(event) => clickHandler(event, 5)}>Click 5</button>
         </div>
     )
 }
