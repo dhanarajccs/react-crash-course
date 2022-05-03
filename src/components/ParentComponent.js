@@ -21,4 +21,3 @@ export const ParentComponent = () => {
 
     return <ChildComponent greetHandler={greetParent} />
 }
-

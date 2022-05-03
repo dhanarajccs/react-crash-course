@@ -1,11 +1,10 @@
 import './App.css';
-import { ParentComponent } from './components/ParentComponent';  // function / method as props
-
+import { UserGreeting } from './components/UserGreeting';  // Conditional Rendering
 
 function App() {
   return (
     <div className="App">
-      <ParentComponent />
+      <UserGreeting />
     </div>
   );
 }
