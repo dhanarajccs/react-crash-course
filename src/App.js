@@ -1,10 +1,10 @@
 import './App.css';
-import { StyleSheet } from './components/Stylesheet';  // Styling 
+import { Inline } from './components/Inline';  // Styling 
 
 function App() {
   return (
     <div className="App">
-      <StyleSheet />
+      <Inline />
     </div>
   );
 }
