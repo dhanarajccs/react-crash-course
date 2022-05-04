@@ -1,10 +1,10 @@
 import './App.css';
-import { UserGreeting } from './components/UserGreeting';  // Conditional Rendering
+import { NameList } from './components/NameList';   // List and Key
 
 function App() {
   return (
     <div className="App">
-      <UserGreeting />
+      <NameList />
     </div>
   );
 }
