@@ -1,10 +1,10 @@
 import './App.css';
-import { NameList } from './components/NameList';   // List and Key
+import { StyleSheet } from './components/Stylesheet';  // Styling 
 
 function App() {
   return (
     <div className="App">
-      <NameList />
+      <StyleSheet />
     </div>
   );
 }
