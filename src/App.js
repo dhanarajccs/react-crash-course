@@ -1,17 +1,12 @@
 import './App.css';
-import './appStyles.css'                      // CSS Stylesheet
-import styles from './appStyles.module.css'   // CSS Module
-import { Inline } from './components/Inline';
+import { Form } from './components/Form';
 
 function App() {
   return (
     <div className='App'>
-      <Inline />
-      <h1 className='error'>Error</h1>
-      <h1 className={styles.success}>Success</h1>
+     <Form />
     </div>
   );
 }
 
 export default App; 
-
